@@ -62,9 +62,8 @@ const simplifyProp: INodeProperties = {
 	default: true,
 }
 
-const x = merge(simplifyProp, utils.showFor('operation', Object.keys(simplifyConfig)));
-
-console.log(JSON.stringify(x, null, 2));
+// const x = merge(simplifyProp, utils.showFor('operation', Object.keys(simplifyConfig)));
+// console.log(JSON.stringify(x, null, 2));
 
 export const allProps: INodeProperties[] = [
 	utils.makeOperationField(operations, 'status'),
